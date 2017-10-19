@@ -7,7 +7,7 @@
   {{/link-to}}
 </div>
 
-{{#list-filter filter=(action 'filterByCity') as |rentalls|}}
+{{#list-filter filter=(action 'filterByCity') as |rentals|}}
               <ul class="results">
                 {{#each rentals as |rentalUnit|}}
                   <li>{{rental-listing rental=rentalUnit}}</li>
